@@ -1,32 +1,70 @@
-# PlexTech Recipe Project
+# Getting Started with Create React App
 
-Hey everyone! This project will require you to create a basic React app showing different recipes. Based off what you have learned about JSX, React, JavaScript, HTML, CSS, and APIs, try your best to show a user a view of 10 data objects you choose. You will need to make a copy of this repository and clone it onto your system in order to push changes to it.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Basic requirements:
-- Needs to be a React application
-- There needs to be at least 10 items you fetch from your API endpoint rendered
-  - Layout of each item(depends on what you fetch from the API)
-      - Item name
-      - Item Data
+## Available Scripts
 
-Instructions:
+In the project directory, you can run:
 
-First you would copy this repository and give it a name. Then you would clone it onto your system using: git clone <repository_url>.git
+### `npm start`
 
-Then, making sure you are in the repository, you would type in npm init create-react-app <app name you think of>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Within your React project directory, make sure you can understand the file structure that we mentioned and talked about during lecture! Understanding it will help greatly and will spare a lot of confusion. Reference the lesson slides if necessary. 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-For fetching from the API, we can use a particular method, fetch. If you go to Mozille Developer Network documenation and search up "fetch", it will give you examples and a solid understanding of why we use fetch. For creating each recipe, you can decide whether to use class or functional components. But you will need to create a main(App.js) component that renders 10 child "item" components. Try to follow my asynchronous demo, and how I hardcoded a specific number of objects, and then mapped them to child components using the JavaScript Array map method. The only difference is you won't be hardcoding those objects in this case, but fetching them from an API.
+### `npm test`
 
-Frequently add, commit, and push your code to submissions folder in the submissions branch!
-- do "git checkout submissions" to switch to the submissions branch
-- Any files you added or changed please do: git add <file_name>
-- Once you have added all the files you needed, then do: git commit -m "<Your commit message - make it as descriptive as possible"
-- Then finally push your commits to the remote repository's submission branch(Here on GitHub): git push
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Once you have finished your project, title the last commit with "Finished project - <Your name>" so we can identify who finished it.
-  
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-If you have any questions, please email me at wlouis23@berkeley.edu or Ansh! Good luck and I hope you enjoy this project.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
